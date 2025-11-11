@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     title: "Rajutan Handmade | Kemewahan Terjangkau",
     description:
       "Rajutan handmade berkualitas — tas, sepatu, dan dompet elegan untuk gaya klasik Anda.",
-    url: "https://namadomainmu.com",
+    url: "https://gh-collection.vercel.app",
     siteName: "Rajut Handmade",
     images: [
       {
-        url: "https://namadomainmu.com/images/hero/hero-bag.png",
+        url: "https://gh-collection.vercel.app/images/hero/hero-bag.png",
         width: 1200,
         height: 630,
         alt: "Rajutan Handmade",
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     title: "Rajutan Handmade | Kemewahan Terjangkau",
     description:
       "Koleksi tas, sepatu, dan dompet rajutan handmade — klasik dan elegan.",
-    images: ["https://namadomainmu.com/images/hero/hero-bag.png"],
+    images: ["https://gh-collection.vercel.app/images/hero/hero-bag.png"],
   },
   alternates: {
-    canonical: "https://namadomainmu.com",
+    canonical: "https://gh-collection.vercel.app",
   },
 }
 
@@ -59,10 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "Store",
     name: "Rajut Handmade",
-    url: "https://namadomainmu.com",
+    url: "https://gh-collection.vercel.app",
     description:
       "Toko rajutan handmade berkualitas, menyediakan tas, sepatu, dan dompet rajut dengan desain elegan dan unik.",
-    logo: "https://namadomainmu.com/images/hero/hero-bag.png",
+    logo: "https://gh-collection.vercel.app/images/hero/hero-bag.png",
     sameAs: [
       "https://www.instagram.com/gh_collections23/",
       "https://wa.me/6285234210330",
